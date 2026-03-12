@@ -8,7 +8,7 @@ interface ThemeStore {
   toggleTheme: () => void;
 }
 
-export const useThemeStore = create<ThemeStore>()(persist((set, get) => ({
+export const useThemeStore = create<ThemeStore>()(persist((set, get) => ({ 
   theme: typeof window !== "undefined" && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light",
   toggleTheme: () => {
     const newTheme = get().theme === "light" ? "dark" : "light";
