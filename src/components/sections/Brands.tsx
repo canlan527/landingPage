@@ -7,7 +7,8 @@ const logos = [
   'paypal',
   'spotify',
   'slack',
-  'uber',
+  'pinterest',
+  'gmail',
   'youtube'
 ]
 
