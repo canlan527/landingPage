@@ -7,7 +7,7 @@ import { services } from "../../utils/services-data"
 
 export default function Service() {
   return (
-    <div id="service">
+    <div id="services">
       <Container className="space-y-10 md:space-y-12">
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <Title>Our AI Serivces</Title>
