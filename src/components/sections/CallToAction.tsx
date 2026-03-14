@@ -3,7 +3,7 @@ import Paragraph from "../shared/Paragraph"
 
 export default function CTA() {
   return (
-    <section id="cta">
+    <section id="cta" className="py-20">
       <Container>
         <div className="text-center">
           <h1 className="text-6xl font-bold text-heading-1 mb-4">
