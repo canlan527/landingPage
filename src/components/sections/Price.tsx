@@ -36,7 +36,7 @@ export default function Price() {
                     ))}
                   </ul>
                   <div className="mt-8">
-                    <button className="w-full text-heading-3 bg-violet-600 hover:bg-violet-700 font-bold py-2 px-4 rounded-3xl transform transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <button className="w-full text-white bg-violet-600 hover:bg-violet-700 font-bold py-2 px-4 rounded-3xl transform transition-transform duration-300 hover:scale-105 cursor-pointer">
                       Choose Plan
                     </button>
                   </div>

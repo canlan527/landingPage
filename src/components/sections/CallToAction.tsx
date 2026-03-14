@@ -12,7 +12,7 @@ export default function CTA() {
           <Paragraph className="my-12">
             Leverage our AI-powered tools and expert support to quickly launch and grow your AI-driven business. To startup or an established company, we provide the resources and guidance you need to succeed in the AI landscape.
           </Paragraph>
-          <button className="bg-violet-600 hover:bg-violet-700 text-heading-1 font-bold py-3 px-6 rounded-full cursor-pointer transition-colors duration-300">
+          <button className="bg-violet-600 hover:bg-violet-700 text-white font-bold py-3 px-6 rounded-full cursor-pointer transition-colors duration-300">
             Get In Touch
           </button>
         </div>
