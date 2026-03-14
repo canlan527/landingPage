@@ -4,11 +4,11 @@ import { NavItem } from "../shared/NavItem"
 import BtnLink from "../shared/BtnLink" 
 import { useThemeStore } from "../../store/ThemeStore"
 
-const navItems = [
+export const navItems = [
   { href: '#', label: 'Home' },
   { href: '#services', label: 'Services' },
   { href: '#about-us', label: 'About Us' },
-  { href: '#price', label: 'Price' },
+  { href: '#price', label: 'Pricing' },
 ] 
 
 export default function Navbar() {

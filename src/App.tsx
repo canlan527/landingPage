@@ -15,6 +15,5 @@ export default function App() {
     <About />
     <Price />
     <CTA />
-    <div className="w-full h-48 bg-violet-500"></div>
   </Layout>
 }
