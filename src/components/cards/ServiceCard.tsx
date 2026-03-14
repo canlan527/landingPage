@@ -13,7 +13,7 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return (
     <div className="p-5 sm:p-6 lg:p-8 bg-box-bg border rounded-3xl shadow-lg relative overflow-hidden">
-      <div className="rounded-xl bg-body bg-gray-300 dark:bg-gray-950 text-heading-1 w-max relative">
+      <div className="rounded-xl bg-body p-3 text-heading-1 w-max relative">
         {icon}
       </div>
       <div className="mt-6 space-y-4 relative">
