@@ -30,7 +30,7 @@ export default function Price() {
                   <ul className="text-heading-3 mt-6 flex-1 space-y-3 text-left">
                     {plan.features.map((feature, index) => (
                       <li className="" key={index}>
-                        <span className="text-primary">✅</span>
+                        <span className="text-primary mr-2">✅</span>
                         <span>{feature}</span>
                       </li>
                     ))}
